@@ -1,0 +1,8 @@
+# ninja log v5
+0	667	1685809017623787824	CMakeFiles/SV_Project.dir/sv_classes.cpp.o	2fda52f207b26edb
+0	754	1685809017711788315	CMakeFiles/SV_Project.dir/SV_Frame.cpp.o	18316e4f8526b43f
+1	679	1685809035515887577	CMakeFiles/SV_Project.dir/Raw_Socket.cpp.o	5e6221882311dd8a
+1	691	1685809035527887644	CMakeFiles/SV_Project.dir/CalcModule.cpp.o	323c9a28ce3a8eb3
+680	760	1685809035563887845	CMakeFiles/SV_Project.dir/Frames_Buffer.cpp.o	169cad60f2b9341a
+0	876	1685809035711888670	CMakeFiles/SV_Project.dir/main.cpp.o	d96855aca87494d0
+876	962	1685809035799889160	SV_Project	f7a224741ad53b7a

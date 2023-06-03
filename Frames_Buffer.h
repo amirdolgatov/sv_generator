@@ -35,7 +35,7 @@ public:
      */
     void record_seq_of_Data( u_char* ptr){
         for (auto i: this->svFrame.seqOfData_ptr) {        // запись начальных значений в соответствующий участок ethernet кадра
-            auto *seq_ptr = ( Seq_of_Data:: sequence_of_Data *)(ptr + i + );
+            auto *seq_ptr = ( Seq_of_Data:: sequence_of_Data *)(ptr + i + 1);
             seq_ptr->Ia = calc_values[0].get_value_80();
             seq_ptr->Ib = calc_values[1].get_value_80();
             seq_ptr->Ic = calc_values[2].get_value_80();

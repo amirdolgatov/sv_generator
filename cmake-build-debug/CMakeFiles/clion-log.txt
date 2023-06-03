@@ -1,4 +1,0 @@
-/home/amir/Downloads/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/amir/Projects/sv -B /home/amir/Projects/sv/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/amir/Projects/sv/cmake-build-debug
