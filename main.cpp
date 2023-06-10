@@ -16,8 +16,8 @@ int main() {
     };
 
     ASDU_settings asdu{
-        .svID = "ABCl;;lk;gk;gk;dlgk;lskgl;dfDE",   // 7 *
-        .datSet = "DATAgdfglgfd;slklgksdg", // 7
+        .svID = "NTI_TEST_SV01",   // 7 *
+        .datSet = "DATASET", // 7
         .smpCnt = 0,          // 2
         .confrev = 1,         // 4
         .refrTm = 0,          // 8

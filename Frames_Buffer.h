@@ -33,17 +33,17 @@ public:
     /*!
      * Метод записи мгновенных значений в области фрейма
      */
-    void record_seq_of_Data( u_char* ptr){
+    void record_seq_of_Data( u_char* ptr) {
         for (auto i: this->svFrame.seqOfData_ptr) {        // запись начальных значений в соответствующий участок ethernet кадра
-            auto *seq_ptr = ( Seq_of_Data:: sequence_of_Data *)(ptr + i + 1);
-            seq_ptr->Ia = calc_values[0].get_value_80();
-            seq_ptr->Ib = calc_values[1].get_value_80();
-            seq_ptr->Ic = calc_values[2].get_value_80();
-            seq_ptr->In = calc_values[3].get_value_80();
-            seq_ptr->Ua = calc_values[4].get_value_80();
-            seq_ptr->Ub = calc_values[5].get_value_80();
-            seq_ptr->Uc = calc_values[6].get_value_80();
-            seq_ptr->Un = calc_values[7].get_value_80();
+            auto *seq_ptr = (Seq_of_Data::sequence_of_Data *) (ptr + i + 2);
+            seq_ptr->Ia = bswap_32(calc_values[0].get_value_80());
+            seq_ptr->Ib = bswap_32(calc_values[1].get_value_80());
+            seq_ptr->Ic = bswap_32(calc_values[2].get_value_80());
+            seq_ptr->In = bswap_32(calc_values[3].get_value_80());
+            seq_ptr->Ua = bswap_32(calc_values[4].get_value_80());
+            seq_ptr->Ub = bswap_32(calc_values[5].get_value_80());
+            seq_ptr->Uc = bswap_32(calc_values[6].get_value_80());
+            seq_ptr->Un = bswap_32(calc_values[7].get_value_80());
         }
     }
 
