@@ -29,7 +29,7 @@ int main() {
     struct General_SV_Settings settings {
         .eth_hdr = mac,             /// Destination MAC
         .VLAN_Priority = 10,           /// VLAN parameters
-        .VLAN_ID = 2,
+        .VLAN_ID = 0,
         .asdu_parametrs = asdu           /// SV ID, datSet, confRev
     };
 

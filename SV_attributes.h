@@ -219,14 +219,14 @@ public:
     /// Поля
 
     struct sequence_of_Data  {
-        int32_t Ia{111}; int32_t Ia_Q{111};
-        int32_t Ib{111}; int32_t Ib_Q{111};
-        int32_t Ic{111}; int32_t Ic_Q{111};
-        int32_t In{111}; int32_t In_Q{111};
-        int32_t Ua{111}; int32_t Ua_Q{111};
-        int32_t Ub{111}; int32_t Ub_Q{111};
-        int32_t Uc{111}; int32_t Uc_Q{111};
-        int32_t Un{111}; int32_t Un_Q{111};
+        int32_t Ia{111}; int32_t Ia_Q{0};
+        int32_t Ib{111}; int32_t Ib_Q{0};
+        int32_t Ic{111}; int32_t Ic_Q{0};
+        int32_t In{111}; int32_t In_Q{0};
+        int32_t Ua{111}; int32_t Ua_Q{0};
+        int32_t Ub{111}; int32_t Ub_Q{0};
+        int32_t Uc{111}; int32_t Uc_Q{0};
+        int32_t Un{111}; int32_t Un_Q{0};
     } values;
 
 
